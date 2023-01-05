@@ -1,0 +1,59 @@
+.button-style{
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    outline: none !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0 0 10px #a3aaa3;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-right:1.2rem;
+    height: 39px;
+    width: 132px;
+}  
+.outergridbox{
+    position: relative;
+    width: 100%;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 3px 20px rgb(61 90 128 / 14%);
+    border-radius: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+    display: grid;
+    height: 68vh;
+    overflow-y: scroll;
+    
+}
+.cardouter{
+    background: #f2f7f8;
+    border-radius: 15px;
+    height: auto;
+    margin: 1rem;
+    padding: 0.05rem 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    height: 27vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 30%;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
